@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="task2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Potta+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 - Survey Form</title>
+</head>
+<body>
+  <div class="container">
+      <form id="survey-form">
+          <div class="form-control">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" class="form-control" type="text" name="name"
+          placeholder="Enter your name" required="">
+        </div>
+     
+<div class="form-control">
+    <label id="email" for="name">E-mail</label>
+    <input id="email" class="form-control" type="text" name="email"
+placeholder="Enter your Email" required="">
+</div>
+<div class="form-control">
+    <label id="age-label" for="name">Age</label>
+    <input id="age" class="form-control" type="text" name="age"
+placeholder="Enter your age" required="">
+</div>
+<div class="form-control">
+    <label id="" for="anticipation">How much anticipation you have for the Redemption?</label>
+   <select id ="dropdown" class="form-control" name="anticipation" required="">
+       <option disabled="" selected="" value="">Select level of anticipation</option>
+       <option value="1">1</option>
+       <option value="2">2</option>
+       <option value="3">3</option>
+       <option value="4">4</option>
+       <option value="5">5</option>
+   </select>
+</div>
+
+
+<div class="form-control">
+  <p>Would you agree to advertise about the Redemption?</p> 
+  <label><input class="input-radio" value="definitely" type="radio"
+    checked=""> definitely   </label> 
+    <label><input class="input-radio" value="maybe" type="radio"
+        checked=""> Maybe   </label> 
+        <label><input class="input-radio" value="Not sure" type="radio"
+            checked=""> Not sure   </label> 
+</div>
+<div class="form-control">
+<p>Tell us more about the GEULA</p>
+<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comments here"></textarea>
+</div>
+<div class="form-control">
+    <button type="submit" id="submit" class="submit-button">Moshiach!</button>
+</div>          
+      </form>
+  </div>  
+</body>
+</html>
